@@ -1,0 +1,34 @@
+body {
+  background-color: #262435;
+}
+
+#graph {
+  margin: 50px auto;
+  height: 500px;
+  width: 800px;
+  background-color: #dbd56e;
+  border-radius: 20px;
+  display: flex;
+}
+
+.bar {
+  margin: 450px 20px auto;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  flex-direction: row;
+  border-radius: 10px 10px 0 0;
+}
+
+.bar:hover {
+  background-color: #463d91;
+}
+
+span {
+  margin: 20px 62px;
+  color: #f2efea;
+  position: absolute;
+  text-align: center;
+  font-family: sans-serif;
+}
